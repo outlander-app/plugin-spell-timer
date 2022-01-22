@@ -18,4 +18,4 @@ Active: 1 Duration: 26
 
 # Installation
 
-Download the latest `SpellTimerPlugin.bundle` file from the [Releases](https://github.com/outlander-app/plugin-spell-timer/releases). Copy this file into your `~/Documents/Outlander/Plugins` folder. Restart Outlander and the plugin should load.
+Download the latest `SpellTimerPlugin.bundle.zip` file from the [Releases](https://github.com/outlander-app/plugin-spell-timer/releases). Unzip and copy the `.bundle` file into your `~/Documents/Outlander/Plugins` folder. Restart Outlander and the plugin should load.
