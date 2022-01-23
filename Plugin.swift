@@ -37,7 +37,7 @@ import Plugins
             return input
         }
 
-        host?.send(text: "#echo SpellTimer Plugin v1")
+        host?.send(text: "#echo SpellTimer Plugin v1.1")
 
         host?.send(text: "#echo Active:")
         for spell in spells.spells.values.filter({ $0.active }) {
