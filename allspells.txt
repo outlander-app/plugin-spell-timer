@@ -7,6 +7,69 @@ Lay Ward|LW|battle
 Manifest Force|MAF|standard
 Seal Cambrinth|SEC|ritual
 Strange Arrow|STRA|battle
+Absolution||ritual
+Aesandry Darlaeth|AD|cyclic
+Aggressive Stance|AGS|standard
+Athleticism||standard
+Awaken|AWAKEN|battle
+Awaken Forest|AF|cyclic
+Bear Strength|BES|cyclic
+Blend|standard
+Blood Staunching|BS|standard
+Bloodthorns||ritual
+Carrion Call|CAC|battle
+Cheetah Swiftness|CS|cyclic
+Circle of Sympathy|COS|ritual
+Claws of the Cougar|COTC|standard
+Compel||battle
+Compost||standard
+Cure Disease|CD|standard
+Curse of the Wilds|COTW|battle
+Deadfall|DF|battle
+Devitalize|DEVI|battle
+Devolve|DE|battle
+Eagle's Cry|EC|battle
+Earth Meld|EM|standard
+Essence of Yew|EY|standard
+Flush Poisons|FP|standard
+Forestwalker's Boon|FWB|battle
+Fountain of Creation|FOC|standard
+Gift of Life|GOL|standard
+Grizzly Claws|GRIZ|battle
+Guardian Spirit|GS|cyclic
+Hands of Lirisa|HOL|standard
+Harawep's Bonds|HB|battle
+Heal||standard
+Heal Scars|HS|standard
+Heal Wounds|HW|standard
+Heart Link|HL|standard
+Icutu Zaharenela|IZ|cyclic
+Innocence||standard
+Instinct|INST|standard
+Iron Constitution|IC|standard
+Lethargy||battle
+Memory of Nature|MON|ritual
+Mental Focus|MEF|standard
+Nissa's Binding|NB|battle
+Oath of the Firstborn|OATH|standard
+Paralysis||battle
+Perseverance of Peri'el|POP|ritual
+Plague of Scavengers|PLS|metamagic
+Raise Power|RP|standard
+Refresh||standard
+Regenerate||cyclic
+See the Wind|STW|standard
+Senses of the Tiger|SOTT|standard
+Skein of Shadows|SKS|standard
+Stampede||battle
+Swarm||battle
+Syamelyo Kuniyo|SK|battle
+Tranquility||standard
+Vigor||standard
+Vitality Healing|VH|standard
+Wisdom of the Pack|WOTP|standard
+Wolf Scent|WS|standard
+River in the Sky|RITS|standard
 Abandoned Heart|ABAN|cyclic
 Aegis of Granite|AEG|ritual
 Aether Cloak|AC|cyclic
