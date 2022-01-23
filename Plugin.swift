@@ -26,13 +26,14 @@ import Plugins
 
     public func initialize(host: IHost) {
         self.host = host
+        spells.initializeLookup(host: host)
     }
 
     public func variableChanged(variable _: String, value _: String) {}
 
     public func parse(input: String) -> String {
-        let trimmed = input.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
-        guard trimmed.hasPrefix("/spelltimer") else {
+        let trimmed = input.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).lowercased()
+        guard trimmed.hasPrefix("/spelltimer") || trimmed.hasPrefix("/spelltracker") else {
             return input
         }
 
@@ -40,7 +41,8 @@ import Plugins
 
         host?.send(text: "#echo Active:")
         for spell in spells.spells.values.filter({ $0.active }) {
-            host?.send(text: "#echo   \(spell.name) (\(spell.duration) roisaen)")
+            let duration = spell.duration == 999 ? "Indefinite" : "\(spell.duration) roisaen"
+            host?.send(text: "#echo   \(spell.name) (\(duration))")
         }
 
         host?.send(text: "#echo Inactive:")
@@ -107,27 +109,48 @@ import Plugins
 
     private func updateVariables() {
         let prefix = "SpellTimer."
+        var activeSpells: [String] = []
+        var inActiveSpells: [String] = []
         for spell in spells.spells.values {
             let active = spell.active ? "1" : "0"
+            host?.set(variable: "\(prefix)\(spell.name).name", value: "\(spell.originalName)")
             host?.set(variable: "\(prefix)\(spell.name).active", value: "\(active)")
             host?.set(variable: "\(prefix)\(spell.name).duration", value: "\(spell.duration)")
+            host?.set(variable: "\(prefix)\(spell.name).alias", value: "\(spell.alias)")
+            host?.set(variable: "\(prefix)\(spell.name).type", value: "\(spell.type)")
+            
+            if spell.active {
+                activeSpells.append(spell.name)
+            } else {
+                inActiveSpells.append(spell.name)
+            }
         }
+
+        host?.set(variable: "activespells", value: activeSpells.joined(separator: "|"))
+        host?.set(variable: "inactivespells", value: inActiveSpells.joined(separator: "|"))
     }
 }
 
 class Spell {
     var name: String
+    var originalName: String
+    var alias: String
+    var type: String
     var duration: Int
     var active: Bool
 
-    init(name: String, duration: Int, active: Bool = false) {
+    init(name: String, originalName: String, alias: String, type: String, duration: Int, active: Bool = false) {
         self.name = name
+        self.originalName = originalName
+        self.alias = alias
+        self.type = type
         self.duration = duration
         self.active = active
     }
 }
 
 class SpellTimer {
+    var spellLookup: [String: Spell] = [:]
     var spells: [String: Spell] = [:]
     var streamed: [String] = []
 
@@ -136,7 +159,8 @@ class SpellTimer {
         var spell = spells[varName]
 
         if spell == nil {
-            spell = Spell(name: varName, duration: 0, active: false)
+            let config = spellLookup[varName]
+            spell = Spell(name: varName, originalName: name, alias: config?.alias ?? "", type: config?.type ?? "", duration: 0, active: false)
             spells[varName] = spell
         }
 
@@ -162,6 +186,32 @@ class SpellTimer {
                 continue
             }
         }
+    }
+
+    var spellLookupInitialized = false
+    func initializeLookup(host: IHost) {
+        guard spellLookupInitialized == false else {
+            return
+        }
+        guard let allspells = host.load(from: "allspells.txt") else {
+            return
+        }
+
+        let lines = allspells.components(separatedBy: "\n").filter { !$0.isEmpty }
+        for line in lines {
+            let options = line.components(separatedBy: "|")
+            //print("options \(options)")
+            guard options.count == 3 else {
+                print("Invalid spell config: \(line)")
+                continue
+            }
+
+            let varName = convertToVariableName(name: options[0])
+            let alias = options[1].count == 0 ? options[0] : options[1]
+            spellLookup[varName] = Spell(name: varName, originalName: options[0], alias: alias, type: options[2], duration: 0)
+        }
+        
+        spellLookupInitialized = true
     }
 
     private func convertToVariableName(name: String) -> String {

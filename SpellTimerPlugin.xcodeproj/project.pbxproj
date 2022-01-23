@@ -328,7 +328,7 @@
 			repositoryURL = "https://github.com/outlander-app/plugin-package.git";
 			requirement = {
 				kind = exactVersion;
-				version = 1.0.3;
+				version = 1.0.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

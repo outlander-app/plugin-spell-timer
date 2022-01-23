@@ -1,0 +1,372 @@
+Burden||battle
+Dispel||battle
+Ease Burden|EASE|standard
+Guage Flow|GAF|standard
+Imbue||standard
+Lay Ward|LW|battle
+Manifest Force|MAF|standard
+Seal Cambrinth|SEC|ritual
+Strange Arrow|STRA|battle
+Abandoned Heart|ABAN|cyclic
+Aegis of Granite|AEG|ritual
+Aether Cloak|AC|cyclic
+Aether Wolves|AEWO|cyclic
+Aethrolysis||battle
+Air Bubble|AB|standard
+Air Lash|ALA|battle
+Albreda's Balm|ALB|cyclic
+Anther's Call|ANC|battle
+Arc Light|AL|battle
+Aura of Tongues|AOT|standard
+Beckon the Naga|BTN|standard
+Blessing of the Fae|BOTF|cyclic
+Blufmor Garaen|BG|battle
+Breath of Storms|BOS|battle
+Caress of the Sun|CARE|cyclic
+Chain Lightning|CL|battle
+Damaris' Lullaby|DALU|cyclic
+Demrris' Resolve|DMRS|battle
+Desert's Maelstrom|DEMA|battle
+Dragon's Breath|DB|battle
+Drums of the Snake|DRUM|standard
+Echoes of Aether|ECHO|ritual
+Eillie's Cry|ECRY|standard
+Electrostatic Eddy|EE|cyclic
+Elementalism||metamagic
+Ethereal Fissure|ETF|standard
+Ethereal Shield|ES|standard
+Expansive Infusions||metamagic
+Eye of Kertigen|EYE|cyclic
+Faenella's Grace|FAE|cyclic
+Fiery Infusions||metamagic
+Fire Ball|FB|battle
+Fire Rain|FR|cyclic
+Fire Shards|FS|battle
+Flame Shockwave|FLS|metamagic
+Fortress of Ice|FOI|standard
+Frost Scythe|FRS|battle
+Frostbite||battle
+Gam Irnan|GI|standard
+Gar Zeng|GZ|battle
+Geyser||battle
+Glythtide's Joy|GJ|cyclic
+Grounding Field|GF|standard
+Harmony|HARM|standard
+Hodierna's Lilt|HODI|cyclic
+Ice Patch|IP|battle
+Icy Infusions||metamagic
+Ignite||standard
+Ignition Point||metamagic
+Lightning Bolt|LB|battle
+Magnetic Ballista|MAB|standard
+Mantle of Flame|MOF|ritual
+Mark of Arhat|MOA|battle
+Misdirection|MIS|battle
+Naming of Tears|NAME|standard
+Nexus||standard
+Paeldryth's Wrath|PW|battle
+Phoenix's Pyre|PYRE|cyclic
+Quick Infusions||metamagic
+Rage of the Clans|RAGE|standard
+Redeemer's Pride|REPR|standard
+Reinforced Infusions||metamagic
+Resonance||standard
+Rimefang|RIM|cyclic
+Ring of Spears|ROS|cyclic
+Rising Mists|RM|standard
+Sanctuary||cyclic
+Shocking Infusions||metamagic
+Shockwave||battle
+Soul Ablaze|SOUL|ritual
+Stone Strike|STS|battle
+Substratum||standard
+Sure Footing|SUF|standard
+Swirling Winds|SW|standard
+Tailwind|TW|standard
+Thunderclap|TC|battle
+Tingle|TI|battle
+Tremor|TREM|battle
+Veil of Ice|VOI|standard
+Vertigo||battle
+Ward Break|WB|battle
+Whispers of the Muse|WOTM|standard
+Will of Winter|WILL|ritual
+Words of the Wind|WORD|ritual
+Y'ntrel Sechra|YS|standard
+Zephyr||battle
+Abandoned Heart|ABAN|cyclic
+Aegis of Granite|AEG|ritual
+Aether Cloak|AC|cyclic
+Aether Wolves|AEWO|cyclic
+Aethrolysis||battle
+Air Bubble|AB|standard
+Air Lash|ALA|battle
+Albreda's Balm|ALB|cyclic
+Anther's Call|ANC|battle
+Arc Light|AL|battle
+Aura of Tongues|AOT|standard
+Beckon the Naga|BTN|standard
+Blessing of the Fae|BOTF|cyclic
+Blufmor Garaen|BG|battle
+Breath of Storms|BOS|battle
+Caress of the Sun|CARE|cyclic
+Chain Lightning|CL|battle
+Damaris' Lullaby|DALU|cyclic
+Demrris' Resolve|DMRS|battle
+Desert's Maelstrom|DEMA|battle
+Dragon's Breath|DB|battle
+Drums of the Snake|DRUM|standard
+Echoes of Aether|ECHO|ritual
+Eillie's Cry|ECRY|standard
+Electrostatic Eddy|EE|cyclic
+Elementalism||metamagic
+Ethereal Fissure|ETF|standard
+Ethereal Shield|ES|standard
+Expansive Infusions||metamagic
+Eye of Kertigen|EYE|cyclic
+Faenella's Grace|FAE|cyclic
+Fiery Infusions||metamagic
+Fire Ball|FB|battle
+Fire Rain|FR|cyclic
+Fire Shards|FS|battle
+Flame Shockwave|FLS|metamagic
+Fortress of Ice|FOI|standard
+Frost Scythe|FRS|battle
+Frostbite||battle
+Gam Irnan|GI|standard
+Gar Zeng|GZ|battle
+Geyser||battle
+Glythtide's Joy|GJ|cyclic
+Grounding Field|GF|standard
+Harmony|HARM|standard
+Hodierna's Lilt|HODI|cyclic
+Ice Patch|IP|battle
+Icy Infusions||metamagic
+Ignite||standard
+Ignition Point||metamagic
+Lightning Bolt|LB|battle
+Magnetic Ballista|MAB|standard
+Mantle of Flame|MOF|ritual
+Mark of Arhat|MOA|battle
+Misdirection|MIS|battle
+Naming of Tears|NAME|standard
+Nexus||standard
+Paeldryth's Wrath|PW|battle
+Phoenix's Pyre|PYRE|cyclic
+Quick Infusions||metamagic
+Rage of the Clans|RAGE|standard
+Redeemer's Pride|REPR|standard
+Reinforced Infusions||metamagic
+Resonance||standard
+Ring of Spears|ROS|cyclic
+Rising Mists|RM|standard
+Sanctuary||cyclic
+Shocking Infusions||metamagic
+Shockwave||battle
+Soul Ablaze|SOUL|ritual
+Stone Strike|STS|battle
+Substratum||standard
+Sure Footing|SUF|standard
+Swirling Winds|SW|standard
+Tailwind|TW|standard
+Thunderclap|TC|battle
+Tingle|TI|battle
+Tremor|TREM|battle
+Veil of Ice|VOI|standard
+Vertigo||battle
+Ward Break|WB|battle
+Whispers of the Muse|WOTM|standard
+Will of Winter|WILL|ritual
+Words of the Wind|WORD|ritual
+Y'ntrel Sechra|YS|standard
+Zephyr||battle
+Aesrela Everild|AE|battle
+Alamhif's Gift|AG|ritual
+Anti-Stun|AS|battle
+Aspects of the All-God|ALL|ritual
+Aspirant's Aegis|AA|standard
+Auspice||standard
+Banner of Truce|BOT|standard
+Benediction||standard
+Bitter Feast|BF|metamagic
+Bless||standard
+Bond Armaments|BA|standard
+Centering||standard
+Chill Spirit|CHS|battle
+Clarity||standard
+Courage||standard
+Crusader's Challenge|CRC|battle
+Curse of Zachriedek|COZ|battle
+Divine Armor|DA|standard
+Divine Guidance|DIG|standard
+Divine Radiance|DR|standard, battle
+Eylhaar's Feast|EF|battle
+Fire of Ushnish|FOU|battle
+Fists of Faenella|FF|battle
+Footman's Strike|FST|battle
+Ghost Shroud|GHS|cyclic
+Glythtide's Gift|GG|standard
+Halo||battle
+Halt||battle
+Hand of Tenemlor|HOT|battle
+Hands of Justice|HOJ|standard
+Harm Evil|HE|battle
+Harm Horde|HH|battle
+Heavenly Fires|HF|metamagic
+Heroic Strength|HES|standard
+Holy Warrior|HOW|cyclic
+Horn of the Black Unicorn|HORN|battle
+Huldah's Pall|HULP|battle
+Hydra Hex|HYH|cyclic
+Idon's Theft|IT|battle
+Major Physical Protection|MAPP|standard
+Malediction||battle
+Marshal Order|MO|standard
+Mass Rejuvenation|MRE|standard
+Meraud's Cry|MC|battle
+Minor Physical Protection|MPP|standard
+Murrula's Flames|MF|ritual
+Osrel Meraud|OM|standard
+Persistence of Mana|POM|ritual
+Phelim's Sanction|PS|battle
+Protection from Evil|PFE|standard
+Rebuke|REB|battle
+Rejuvenation|REJUV|standard
+Resurrection|REZZ|cyclic
+Revelation|REV|cyclic
+Righteous Wrath|RW|standard
+Rutilor's Edge|RUE|battle
+Sanctify Pattern|SAP|standard
+Sanyu Lyba|SL|battle
+Sentinel's Resolve|SR|standard
+Shatter||battle
+Shield of Light|SOL|battle
+Smite Horde|SMH|battle
+Soldier's Prayer|SP|battle
+Soul Attrition|SA|cyclic
+Soul Bonding|SB|battle
+Soul Shield|SOS|standard
+Soul Sickness|SICK|battle
+Spite of Dergati|SPIT|battle
+Stun Foe|SF|battle
+Tamsine's Kiss|TK|standard
+Time of the Red Spiral|TOTRS|metamagic
+Truffenyi's Rally|TR|cyclic
+Uncurse||battle
+Vessel of Salvation|VOS|standard
+Veteran Insight|VETERAN|metamagic
+Vigil||standard
+Arbiter's Stylus|ARS|cyclic
+Artificer's Eye|ART|standard
+Aura Sight|AUS|standard
+Avren Aevareae|AVA|standard
+Avtalia Array|AVTA|metamagic
+Bespoke Regalia||metamagic
+Blur||standard
+Braun's Conjecture|BC|ritual
+Burn||battle
+Cage of Light|COL|standard
+Calm||battle
+Clear Vision|CV|standard
+Contingency||standard
+Crystal Dart|CRD|battle
+Dazzle||battle
+Destiny Cipher|DC|ritual
+Dinazen Olkar|DO|battle
+Distant Gaze|DG|standard
+Elision|ELI|ritual
+Empower Moonblade|EMMO|metamagic
+Enrichment||battle
+Finesse|FIN|standard
+Fluoresce|FLU|battle
+Focus Moonbeam|FM|standard
+Hypnotize||metamagic
+Invocation of the Spheres|IOTS|ritual
+Iyqaromos Fire-Lens|IFL|metamagic
+Last Gift of Vithwok IV|LGV|standard
+Locate||standard
+Machinist's Touch|MT|standard
+Mask of the Moons|MOM|cyclic
+Membrach's Greed|MEG|standard
+Mental Blast|MB|battle
+Mind Shout|MS|battle
+Moonblade||battle
+Moongate|MG|cyclic
+Nonchalance|NON|standard
+Noumena|NOU|standard
+Partial Displacement|PD|battle
+Piercing Gaze|PG|standard
+Platinum Hands of Kertigen|PHK|standard
+Psychic Shield|PSY|battle
+Read the Ripples|RTR|ritual
+Refractive Field|RF|standard
+Regalia|REGA|battle
+Rend||battle
+Resumption|RESUM|metamagic
+Riftal Summons|RS|standard
+Ripplegate Theory|RT|metamagic
+Saesordian Compass|SCO|standard
+Seer's Sense|SEER|standard
+Sever Thread|SET|standard
+Shadewatch Mirror|SHM|standard
+Shadow Servant|SS|standard
+Shadow Web|SHW|battle, cyclic
+Shadowling||standard
+Shadows||standard
+Shape Moonblade|SHMO|metamagic
+Shear||battle
+Shift Moonbeam|SM|standard
+Sleep||battle
+Sovereign Destiny|SOD|battle
+Starcrash|STAR|battle
+Starlight Sphere|SLS|cyclic, battle
+Stellar Collector|STC|standard
+Steps of Vuan|SOV|cyclic
+Tangled Fate|TF|standard
+Telekinetic Shield|TKSH|standard
+Telekinetic Storm|TKS|battle
+Telekinetic Throw|TKT|battle
+Teleport||standard
+Tenebrous Sense|TS|standard
+Tezirah's Veil|TV|battle
+Thoughtcast|TH|standard
+Trabe Chalice|TRC|standard
+Turmar Illumination|TURI|standard
+Unleash||standard
+Whole Displacement|WD|battle
+Acid Splash|ACS|battle
+Alkahest Edge|ALK|metamagic
+Blood Burst|BLB|battle
+Butcher's Eye|BUE|standard
+Calcified Hide|CH|standard
+Call from Beyond|CFB|standard
+Chirurgia|CHIR|metamagic
+Consume Flesh|CF|standard
+Covetous Rebirth|CRE|metamagic
+Devour||standard
+Ebon Blood of the Scorpion|EBOTS|metamagic
+Emuin's Candlelight|EMC|standard
+Eyes of the Blind|EOTB|standard
+Ghoulflesh||standard
+Heighten Pain|HP|battle
+Ivory Mask|IVM|standard
+Kura-Silma|KS|standard
+Liturgy||metamagic
+Necrotic Reconstruction|NR|standard
+Obfuscation||standard
+Petrifying Visions|PV|battle
+Philosopher's Preservation|PHP|standard
+Quicken the Earth|QE|standard
+Researcher's Insight|REI|standard
+Reverse Putrefaction|RPU|standard
+Rite of Contrition|ROC|cyclic
+Rite of Forbearance|ROF|cyclic
+Rite of Grace|ROG|cyclic
+Siphon Vitality|SV|battle
+Solace||standard
+Spiteful Rebirth|SRE|metamagic
+Universal Solvent|USOL|cyclic
+Viscous Solution|VS|standard
+Visions of Darkness|VOD|battle
+Vivisection||battle
+Worm's Mist|WORM|battle
